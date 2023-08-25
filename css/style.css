@@ -1,0 +1,211 @@
+/* reseteamos la pagina */
+*{margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F4F1BB;
+}
+
+/* colores generales
+    celeste #96C9DC
+    naranja #FF8C42
+    amarillo #F4F1BB
+    azul #005E7C
+*/
+
+/* header */
+header{
+    height: 64px;
+    background-color: #005E7C;
+    position: sticky;
+    top: 0px;
+}
+/* nav */
+nav{
+    height: 100%;;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    min-height: calc(100vh - (64px + 200px));
+}
+/* footer */
+footer{
+    display: flex;
+    height: 200px;
+    background-color: #FF8C42;
+    justify-content: space-around;
+}
+/* items links en la nav */
+.linkNav{
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+}
+/* la lista de los links principales en la nav */
+.listaNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+/* quitamos diseño de lista */
+.itemListaNav{
+    list-style: none;
+}
+/* div contenedor logo */
+.contImagenNav{
+    height: 100%;
+}
+/* logo */
+.logoNav{
+    height: 100%;
+}
+/* modificamos div links principales */
+.divLinks{
+    width: 100%;
+}
+/* modificamos div sesion */
+.divSesion{
+    width: 25%;
+}
+/* link registro */
+.linkRegistro{
+    color: white;
+    font-size: 1.3rem;;
+}
+/* link sesion */
+.linkInicioSesion{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+/* el titulo principal */
+#tituloInicio{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px;
+    font-style: italic;
+
+}
+/* section principal */
+.inicioImgyParr{
+    height: 200px;
+    margin: 20px;
+}
+/* article principal */
+.imgFamilia{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* imagen principal */
+#logoFamiliaInicio{
+    height: 100%;
+}
+.orientacionF{
+    justify-content: center;
+    text-align: center;
+}
+.orientaciontitulo{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/* frase inicial que acompaña */
+.frasePendiente{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+/* section secciones principales */
+#seccionesInico{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 150px;
+}
+/* articles de casa seccion principal */
+.seccionesInicio{
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: #96C9DC;
+    max-height: 300px;
+    max-width: 250px;
+
+}
+
+.tam12px{
+    font-size: 1.2rem;
+}
+/* imagen footer */
+.imgFooter{
+    height: 80%;
+    margin: 15px;
+}
+/* mapa ubicacion */
+.mapaFooter{
+    height: 80%;
+    margin: 15px;
+}
+/* logos redes */
+.linkRedes{
+    height: 50px;
+    width: 50px;
+}
+.divFooter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* corrigiendo overflow de imagen secciones */
+.fotoSeccionInico{
+    overflow: auto;
+}
+/* agregando margen a lo que vea necesario */
+.separacionBasica{
+    margin: 10px;
+}
+/* corrijo imagenes mas chicas de Ultimas Publicaciones */
+.imagenUltP{
+height: 50%;
+width: 50%;
+}
+
+.centrandotexto{
+    text-align: center;
+}
+.principalsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secundariosection{
+    display: flex;
+    justify-content: space-around;
+}
+.colabors{
+    display: flex;
+    justify-content: space-around;
+}
+.colabor{
+    display: flex;
+    align-items: center;
+}
+.divpublicaciones{
+    max-width: 400px;
+}
+
+.overflow{
+    flex-wrap: wrap;
+    overflow: auto;
+}
