@@ -106,6 +106,11 @@ footer{
 .divSesion{
     width: 25%;
 }
+.btUser{
+    background-color: #005E7C;
+    border: none;
+    display: none;
+}
 /* link registro */
 .linkRegistro{
     color: white;
@@ -255,6 +260,9 @@ width: 50%;
 
 /* media para movil */
 @media (max-width: 768px) { /* Ocultar en pantallas más pequeñas que 768px de ancho */
+
+
+
     .mapaFooter {
         display: none;
     }
@@ -266,6 +274,11 @@ width: 50%;
         margin: 30px 10%;
         justify-items: center;
     }
-
+    .btUser{
+        display: block;
+    }
+    .divSesion{
+        display: none;
+    }
 
 }
