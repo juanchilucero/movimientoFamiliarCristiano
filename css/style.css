@@ -7,9 +7,13 @@ html{
     font-family: 'Open Sans', sans-serif;
     background-color: #F4F1BB;
 }
-body{
-    background-color: #F4F1BB
+body {
+    width: 100%; /* Establecer la anchura al 100% */
+    margin: 0; /* Eliminar los márgenes por defecto del body */
+    padding: 0; /* Eliminar los rellenos por defecto del body */
+    background-color: #F4F1BB /* pongo color al body */
 }
+
 
 /* colores generales
     celeste #96C9DC
@@ -31,8 +35,14 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.navbar{
+    padding: 0px;
+}
 main{
     min-height: calc(100vh - (64px + 200px));
+}
+ul{
+    margin: 0;
 }
 /* footer */
 footer{
@@ -40,6 +50,14 @@ footer{
     height: 200px;
     background-color: #FF8C42;
     justify-content: space-around;
+}
+
+/* tamaños varios */
+.height100{
+    height: 100%;
+}
+.width100{
+    width: 100%;
 }
 /* items links en la nav */
 .linkNav{
@@ -54,11 +72,24 @@ footer{
     align-items: center;
     height: 100%;
     list-style: none;
+    width: 100%
 }
 /* quitamos diseño de lista */
 .itemListaNav{
     list-style: none;
 }
+
+/* lista desplegable nav */
+
+.navMovil{
+    background-color: #005E7C;;
+}
+.borderNav{
+    border: 3px solid black;
+    width: inherit;
+    text-align: center;
+}
+
 /* div contenedor logo */
 .contImagenNav{
     height: 100%;
@@ -125,9 +156,12 @@ footer{
 }
 /* section secciones principales */
 #seccionesInico{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-around;
-    margin: 30px 150px;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+    padding: 10px;
 }
 /* articles de casa seccion principal */
 .seccionesInicio{
@@ -138,11 +172,14 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 50px;
     background-color: #96C9DC;
-    max-height: 300px;
-    max-width: 250px;
+    max-width: 500px;
+    width: 100%;
 
+}
+.div__imgsbody{
+    height: 100%;
+    width: 100%;
 }
 
 .tam12px{
@@ -173,6 +210,9 @@ footer{
 /* corrigiendo overflow de imagen secciones */
 .fotoSeccionInico{
     overflow: auto;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 /* agregando margen a lo que vea necesario */
 .separacionBasica{
@@ -211,4 +251,21 @@ width: 50%;
 .overflow{
     flex-wrap: wrap;
     overflow: auto;
+}
+
+/* media para movil */
+@media (max-width: 768px) { /* Ocultar en pantallas más pequeñas que 768px de ancho */
+    .mapaFooter {
+        display: none;
+    }
+    .imgFooter {
+        display: none;
+        }
+    #seccionesInico{
+        grid-template-columns: 1fr;
+        margin: 30px 10%;
+        justify-items: center;
+    }
+
+
 }

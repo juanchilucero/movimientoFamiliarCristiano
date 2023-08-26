@@ -24,41 +24,46 @@
 <body>
     <!-- empieza header -->
     <header>
-        <nav>
-            <div class="contImagenNav">
-                <!-- logo esquinero -->
-                <img src="./img/logoCruz.jpeg" alt="logoCruz" class="logoNav">
-            </div>
-            <div class="divLinks">
-                <!-- links nav -->
-                <ul class="listaNav">
-                    <li class="itemListaNav">
-                        <a href="./index.html" class="linkNav">Inicio</a>
-                    </li>
-                    <li class="itemListaNav">
-                        <a href="./pages/conocenos.html" class="linkNav">Conocenos</a>
-                    </li>
-                    <li class="itemListaNav">
-                        <a href="./pages/biblioteca.html" class="linkNav">Biblioteca</a>
-                    </li>
-                    <li class="itemListaNav">
-                        <a href="./pages/noticias.html" class="linkNav">Noticias</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="divSesion">
-                <!-- sector de logueo o cuenta -->
-                <ul class="listaNav">
-                    <li>
-                        <a href="./pages/cuenta.html" class="linkRegistro">Registrarme</a>
-                    </li>
-                    <li>
-                        <a href="./pages/cuenta.html" class="linkInicioSesion">Inicio sesion</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg nav">
+            <div class="container-fluid height100">
+                <div class="contImagenNav">
+                    <!-- logo esquinero -->
+                    <img src="./img/logoCruz.jpeg" alt="logoCruz" class="logoNav">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navMovil" id="navbarNav">
+                    <ul class="navbar-nav listaNav">
+                        <li class="nav-item borderNav">
+                            <a class="nav-link linkNav" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item borderNav">
+                            <a class="nav-link linkNav" href="./pages/conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item borderNav">
+                            <a class="nav-link linkNav" href="./pages/biblioteca.html">Biblioteca</a>
+                        </li>
+                        <li class="nav-item borderNav">
+                            <a class="nav-link linkNav" href="./pages/noticias.html">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="divSesion">
+                    <!-- sector de logueo o cuenta -->
+                    <ul class="listaNav">
+                        <li>
+                            <a href="./cuenta.html" class="linkRegistro">Registrarme</a>
+                        </li>
+                        <li>
+                            <a href="./cuenta.html" class="linkInicioSesion">Inicio sesion</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-
     </header>
     <!-- empieza main -->
     <main>
@@ -89,7 +94,9 @@
                 <p class="tam12px">
                     Somos un grupo de colaboradores los cuales ayudamos a las familias ofreciendo orientación familiar con apoyo y guía personalizada para fortalecer relaciones y superar desafíos, promoviendo un ambiente de amor y comprensión mutua.
                 </p>
-                <img src="./img/familiaFeliz.jpg" alt="fotoMovimiento" class="fotoSeccionInico" class="separacionBasica">
+                <div class="div__imgsbody">
+                    <img src="./img/familiaFeliz.jpg" alt="fotoMovimiento" class="fotoSeccionInico" class="separacionBasica">
+                </div>
 
             </article>
             <!-- ultimas publicaciones -->
