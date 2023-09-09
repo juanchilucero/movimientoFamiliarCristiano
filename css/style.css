@@ -96,6 +96,9 @@ footer{
 /* div contenedor logo */
 .contImagenNav{
     height: 100%;
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-bottom: 3px;
 }
 /* logo */
 .logoNav{
@@ -293,6 +296,7 @@ width: 50%;
 .año2020{
     display: flex;
     align-items: flex-start;
+    max-width: 800px;
 }
 .año2020img{
     max-width: 30%;
@@ -310,6 +314,17 @@ width: 50%;
 
 
 
+/* page conocenos */
+
+.conocenos__padding{
+    padding: 30px;
+}
+
+.año2020__article{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 /* page noticia */
 .main__noticias {
     display: grid;
@@ -339,17 +354,73 @@ width: 50%;
     line-height: 1.5;
 }
 
+/* page biblioteca */
+
+.biblioteca__section{
+    flex: 1;
+    padding: 20px;
+}
+
+.biblioteca__section_publicacion{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.biblioteca__section_publicacion:hover{
+    background-color: #f5f5f5;
+}
+
+.biblioteca__section_publicacion img{
+    max-width: 100%;
+    height: auto;
+}
+
+.biblioteca__section_publicacion h3{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.biblioteca__section_publicacion p{
+    font-size: 1rem;
+}
 
 
+/* page publicacion */
 
+.publicacion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+.publicacion_title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
 
+.publicacion_contenido {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
 
+.publicacion_img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
 
+.publicacion_media {
+    margin-top: 20px;
+}
 
-
-
-
+.publicacion_media a {
+    display: block;
+    margin-bottom: 10px;
+}
 
 
 
@@ -407,4 +478,21 @@ width: 50%;
         grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
     }
 
+    .publicacion {
+        padding: 10px;
+    }
+
+    .publicacion_title {
+        font-size: 1.5rem;
+    }
+
+    .publicacion_contenido {
+        font-size: 1rem;
+    }
+
+    .publicacion_img {
+        float: none;
+        margin: 0;
+        max-width: 100%;
+    }
 }
