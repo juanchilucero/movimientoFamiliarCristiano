@@ -1,0 +1,28 @@
+@import "variables";
+
+footer{
+    display: flex;
+    height: 200px;
+    background-color: map-get($colours, naranja);
+    justify-content: space-around;
+}
+
+.imgFooter{
+    height: 80%;
+    margin: 15px;
+}
+
+.divFooter{
+    flex-direction: column;
+    text-align: center;
+    @include flex-center-center
+}
+
+.linkRedes{
+    @include sizes(50px,50px)
+}
+
+.mapaFooter{
+    height: 80%;
+    margin: 15px;
+}

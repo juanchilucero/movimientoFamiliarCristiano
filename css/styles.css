@@ -1,0 +1,565 @@
+@charset "UTF-8";
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+header {
+  height: 64px;
+  background-color: #005E7C;
+  position: sticky;
+  top: 0px;
+}
+
+/* nav */
+.navbar {
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  min-height: calc(100vh - 264px);
+}
+
+ul {
+  margin: 0;
+}
+
+/* lista desplegable nav */
+.navMovil {
+  background-color: #005E7C;
+}
+.navMovil ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+  width: 100%;
+}
+.navMovil ul li {
+  border: 3px solid black;
+  width: inherit;
+  text-align: center;
+}
+.navMovil ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+/* div contenedor logo */
+.contImagenNav {
+  height: 100%;
+  padding-top: 3px;
+  padding-right: 20px;
+  padding-bottom: 3px;
+}
+.contImagenNav img {
+  height: 100%;
+  width: 100%;
+}
+
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  background-color: #FF8C42;
+  justify-content: space-around;
+}
+
+.imgFooter {
+  height: 80%;
+  margin: 15px;
+}
+
+.divFooter {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkRedes {
+  height: 50px;
+  width: 50px;
+}
+
+.mapaFooter {
+  height: 80%;
+  margin: 15px;
+}
+
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* el titulo principal */
+#index-h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px;
+  font-style: italic;
+}
+
+.index-bienvenida {
+  height: 200px;
+  margin: 20px;
+}
+.index-bienvenida article {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index-bienvenida article img {
+  height: 100%;
+}
+.index-bienvenida article div {
+  justify-content: center;
+  text-align: center;
+}
+.index-bienvenida article div h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.index-bienvenida article div p {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+#index-secciones {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+  padding: 10px;
+}
+#index-secciones article {
+  border: 5px solid black;
+  border-radius: 30px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #96C9DC;
+  max-width: 500px;
+  width: 100%;
+}
+
+.fotoSeccionInico {
+  overflow: auto;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container-publicacion {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.publicacion h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.publicacion p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+.publicacion img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+.publicacion div {
+  margin-top: 20px;
+}
+.publicacion div a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* page conocenos */
+.conocenos__padding {
+  padding: 30px;
+}
+
+.principalsection {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.principalsection div {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  max-height: 250px;
+  padding-right: 100px;
+}
+.principalsection div img {
+  max-height: 250px;
+  justify-self: end;
+}
+
+.text_imgCon {
+  max-width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.text_imgCon p {
+  margin: 0;
+  line-height: 1.5;
+  word-wrap: break-word;
+  max-height: 250px;
+  margin-right: 60px;
+}
+
+.secundariosection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.conocenos-pandemia article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conocenos-pandemia article div {
+  display: flex;
+  align-items: flex-start;
+  max-width: 800px;
+}
+.conocenos-pandemia article div img {
+  max-width: 30%;
+  max-height: 30%;
+  margin-left: 10px;
+}
+
+.colabors {
+  display: grid;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.colabor {
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  max-height: 75%;
+  gap: 10px;
+}
+
+.fotoColaborador {
+  border-radius: 50%;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* colores generales*/
+.fullheight {
+  height: 100%;
+}
+
+.fullwidht {
+  width: 100%;
+}
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tam12px {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* media para movil */
+@media (max-width: 768px) { /* Ocultar en pantallas más pequeñas que 768px de ancho */
+  .mapaFooter {
+    display: none;
+  }
+  .imgFooter {
+    display: none;
+  }
+  #index-secciones {
+    grid-template-columns: 1fr;
+    margin: 30px 10%;
+    justify-items: center;
+  }
+  .principalsection {
+    grid-template-columns: 1fr;
+  }
+  .principalsection div {
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .secundariosection {
+    grid-template-columns: 1fr;
+  }
+  .conocenos-pandemia article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conocenos-pandemia article div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .conocenos-pandemia article div img {
+    max-width: 80%;
+    max-height: 80%;
+    align-self: center;
+  }
+  .centrando {
+    justify-content: center;
+  }
+  .año2020 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .año2020img {
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .main__noticias {
+    grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
+  }
+  .publicacion {
+    padding: 10px;
+  }
+  .publicacion h1 {
+    font-size: 1.5rem;
+  }
+  .publicacion p {
+    font-size: 1rem;
+  }
+  .publicacion img {
+    float: none;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #F4F1BB;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F1BB;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,46 @@
+
+/* colores generales*/
+$colours: (
+    celeste: #96C9DC,
+    naranja: #FF8C42,
+    amarillo: #F4F1BB,
+    azul: #005E7C,
+);
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.fullheight{
+    height: 100%;
+}
+.fullwidht{
+    width: 100%;
+}
+.fullsize{
+    height: 100%;
+    width: 100%;
+}
+
+@mixin flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+.tam12px{
+    font-size: 1.2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}

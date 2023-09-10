@@ -1,0 +1,32 @@
+@import "variables";
+
+
+.container-publicacion{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.publicacion {
+    h1{
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        float: right;
+        margin: 10px 0 10px 10px;
+    }
+    div{
+        margin-top: 20px;
+        a{
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+}

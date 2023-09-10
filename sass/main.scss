@@ -1,0 +1,24 @@
+@import "partials/variables";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/index";
+@import "partials/publicacion";
+@import "partials/conocenos";
+@import "partials/movil";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: map-get($colours, amarillo);
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: map-get($colours, amarillo);
+}
