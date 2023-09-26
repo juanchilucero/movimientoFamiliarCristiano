@@ -10,6 +10,7 @@
     h1{
         font-size: map-get($textsize , subtitulo);
         margin-bottom: 20px;
+        font-style: italic;
     }
     h2{
         font-size: map-get($textsize , semititulo);
@@ -21,8 +22,8 @@
         text-align: justify;
     }
     img{
-        max-width: 100%;
-        height: auto;
+        max-width: 50%;
+        max-height: 250px;
         float: right;
         margin: 10px 0 10px 10px;
     }

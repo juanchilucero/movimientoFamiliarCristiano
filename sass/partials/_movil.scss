@@ -75,4 +75,18 @@
         }
     }
 
+    .biblioteca{
+        section{
+            h2{
+                text-align: center;
+            }
+            div{
+                a{
+                    grid-template-columns: auto;
+                    justify-items: center;
+                    margin: 20px;
+                }
+            }
+        }
+    }
 }

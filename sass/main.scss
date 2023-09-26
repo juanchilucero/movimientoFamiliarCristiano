@@ -16,11 +16,13 @@
 html{
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
-    background-color: map-get($colours, amarillo);
+    background: rgb(246,142,95);
+    background: linear-gradient(0deg, rgba(246,142,95,0.9037990196078431) 0%, rgba(244,241,187,1) 71%, rgba(38,129,158,0.8057598039215687) 100%);
 }
 body {
     width: 100%;
     margin: 0;
     padding: 0; 
-    background-color: map-get($colours, amarillo);
+    background: rgb(246,142,95);
+    background: linear-gradient(0deg, rgba(246,142,95,0.9037990196078431) 0%, rgba(244,241,187,1) 71%, rgba(38,129,158,0.8057598039215687) 100%);
 }

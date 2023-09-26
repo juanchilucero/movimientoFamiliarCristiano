@@ -5,6 +5,7 @@ header{
     background-color: map-get($colours, azul);
     position: sticky;
     top: 0px;
+    z-index: 10;
 }
 /* nav */
 .navbar{

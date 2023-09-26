@@ -5,6 +5,10 @@
 
 .conocenos__padding{
     padding: 30px;
+    h1{
+        font-size: map-get($textsize , titulo );
+        font-style: italic;
+    }
 }
 
 

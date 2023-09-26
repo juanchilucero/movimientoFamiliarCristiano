@@ -64,6 +64,7 @@ header {
   background-color: #005E7C;
   position: sticky;
   top: 0px;
+  z-index: 10;
 }
 
 /* nav */
@@ -339,6 +340,7 @@ footer {
 .publicacion h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  font-style: italic;
 }
 .publicacion h2 {
   font-size: 2rem;
@@ -350,8 +352,8 @@ footer {
   text-align: justify;
 }
 .publicacion img {
-  max-width: 100%;
-  height: auto;
+  max-width: 50%;
+  max-height: 250px;
   float: right;
   margin: 10px 0 10px 10px;
 }
@@ -396,6 +398,10 @@ footer {
 /* page conocenos */
 .conocenos__padding {
   padding: 30px;
+}
+.conocenos__padding h1 {
+  font-size: 3rem;
+  font-style: italic;
 }
 
 .principalsection {
@@ -523,6 +529,7 @@ footer {
   text-align: center;
   margin-top: 30px;
   font-size: 3rem;
+  font-style: italic;
 }
 .main__noticias section {
   width: 100%;
@@ -584,6 +591,7 @@ footer {
 .biblioteca h1 {
   font-size: 3rem;
   margin: 30px;
+  font-style: italic;
 }
 .biblioteca section {
   flex: 1;
@@ -591,6 +599,10 @@ footer {
   max-width: 800px;
   align-items: center;
   justify-content: center;
+}
+.biblioteca section h2 {
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 .biblioteca section div a {
   display: grid;
@@ -606,6 +618,7 @@ footer {
 }
 .biblioteca section div img {
   max-width: 100%;
+  max-height: 250px;
   height: auto;
   grid-row: span 2;
 }
@@ -630,45 +643,6 @@ footer {
   margin-top: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.biblioteca__section {
-  flex: 1;
-  padding: 20px;
-}
-.biblioteca__section div a {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: auto auto;
-  text-decoration: none;
-  color: inherit;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px 0;
-  align-items: center;
-}
-.biblioteca__section div img {
-  max-width: 100%;
-  height: auto;
-  grid-row: span 2;
-}
-.biblioteca__section div h3 {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-.biblioteca__section div p {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  font-size: 1.6rem;
-  margin-top: 0;
 }
 
 /* colores generales*/
@@ -761,6 +735,14 @@ footer {
     margin: 0;
     max-width: 100%;
   }
+  .biblioteca section h2 {
+    text-align: center;
+  }
+  .biblioteca section div a {
+    grid-template-columns: auto;
+    justify-items: center;
+    margin: 20px;
+  }
 }
 * {
   margin: 0;
@@ -770,14 +752,16 @@ footer {
 html {
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
-  background-color: #F4F1BB;
+  background: rgb(246, 142, 95);
+  background: linear-gradient(0deg, rgba(246, 142, 95, 0.9037990196) 0%, rgb(244, 241, 187) 71%, rgba(38, 129, 158, 0.8057598039) 100%);
 }
 
 body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #F4F1BB;
+  background: rgb(246, 142, 95);
+  background: linear-gradient(0deg, rgba(246, 142, 95, 0.9037990196) 0%, rgb(244, 241, 187) 71%, rgba(38, 129, 158, 0.8057598039) 100%);
 }
 
 /*# sourceMappingURL=styles.css.map */
