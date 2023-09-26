@@ -328,7 +328,7 @@ footer {
   margin-bottom: 10px;
 }
 .publicacion p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   text-align: justify;
 }
@@ -502,6 +502,10 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.main__noticias h1 {
+  text-align: center;
+  margin-top: 30px;
+}
 .main__noticias section {
   width: 100%;
   max-width: 600px;
@@ -513,6 +517,12 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto 20px;
+}
+.main__noticias section img h2 {
+  text-align: center;
+}
+.main__noticias section p {
+  line-height: 1.5;
 }
 
 /* colores generales*/
@@ -580,7 +590,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-top: 0;
 }
 
@@ -656,24 +666,15 @@ footer {
     max-width: 80%;
     max-height: 80%;
     align-self: center;
-  }
-  .centrando {
-    justify-content: center;
-  }
-  .año2020 {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .año2020img {
-    max-width: 50%;
-    max-height: 50%;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     display: block;
   }
   .main__noticias {
-    grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
+    grid-template-columns: 1fr;
+  }
+  .main__noticias section {
+    padding: 15px;
   }
   .publicacion {
     padding: 10px;

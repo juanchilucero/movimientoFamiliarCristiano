@@ -37,7 +37,7 @@
             flex-direction: column;
             justify-content: center;
             height: 100%; 
-            font-size: 1.2rem;
+            font-size: map-get($textsize , parrafo);
             margin-top: 0;
         }
     }
