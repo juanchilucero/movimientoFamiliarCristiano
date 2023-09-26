@@ -11,13 +11,15 @@
     .imgFooter {
         display: none;
         }
+    
+
     #index-secciones{
         grid-template-columns: 1fr;
         margin: 30px 10%;
         justify-items: center;
         article {
             text-align: center;
-            max-width: 80%; /* Redefine el ancho máximo de los artículos */
+            max-width: 90%;
         }
     }
     .principalsection{
