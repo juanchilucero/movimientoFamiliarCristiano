@@ -251,7 +251,16 @@ footer {
   grid-gap: 20px;
   padding: 10px;
 }
-#index-secciones article {
+#index-secciones a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+#index-secciones a article {
   border: 5px solid black;
   border-radius: 30px;
   padding: 15px;
@@ -264,10 +273,10 @@ footer {
   width: 100%;
   box-sizing: border-box;
 }
-#index-secciones article h3 {
+#index-secciones a article h3 {
   font-size: 2rem;
 }
-#index-secciones article h4 {
+#index-secciones a article h4 {
   font-size: 1.8rem;
 }
 
@@ -403,15 +412,22 @@ footer {
   line-height: 1.5;
   word-wrap: break-word;
   max-height: 250px;
-  margin-right: 60px;
+  max-width: 550px;
 }
 
 .secundariosection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+  justify-items: center;
+}
+.secundariosection div {
+  max-width: 600px;
 }
 
+.conocenos-pandemia h2 {
+  text-align: center;
+}
 .conocenos-pandemia article {
   display: flex;
   justify-content: center;
@@ -423,8 +439,8 @@ footer {
   max-width: 800px;
 }
 .conocenos-pandemia article div img {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 50%;
+  max-height: 50%;
   margin-left: 10px;
 }
 
