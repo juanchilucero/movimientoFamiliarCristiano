@@ -43,6 +43,10 @@ ul{
                 font-size: map-get($textsize , titulo);
             }
         }
+        li:hover {
+            background-color: #e0e0e0;
+            color: #333;
+        }
     }
 }
 
@@ -57,3 +61,4 @@ ul{
         @include sizes(100%,100%)
     }
 }
+

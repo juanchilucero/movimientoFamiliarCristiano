@@ -9,6 +9,7 @@
     h1{
         text-align: center;
         margin-top: 30px;
+        font-size: map-get($textsize , titulo );
     }
     section{
         width: 100%;
@@ -22,10 +23,12 @@
             margin: 0 auto 20px; 
             h2{
                 text-align: center;
+                font-size: map-get($textsize, subtitulo);
             }
         }
         p{
-            line-height: 1.5
+            line-height: 1.5;
+            font-size: map-get($textsize, parrafo);
             
         }
     }

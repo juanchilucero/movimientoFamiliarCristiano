@@ -8,8 +8,12 @@
 }
 .publicacion {
     h1{
-        font-size: 1.8rem;
-        margin-bottom: 10px;
+        font-size: map-get($textsize , subtitulo);
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: map-get($textsize , semititulo);
+        text-decoration: underline;
     }
     p{
         font-size: map-get($textsize , parrafo);
