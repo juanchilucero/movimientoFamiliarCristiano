@@ -17,8 +17,8 @@
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -47,8 +47,8 @@
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -135,8 +135,8 @@ ul {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -195,8 +195,8 @@ footer {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -260,6 +260,13 @@ footer {
   background-color: #96C9DC;
   max-width: 500px;
   width: 100%;
+  box-sizing: border-box;
+}
+#index-secciones article h3 {
+  font-size: 2rem;
+}
+#index-secciones article h4 {
+  font-size: 1.8rem;
 }
 
 .fotoSeccionInico {
@@ -287,8 +294,8 @@ footer {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -346,8 +353,8 @@ footer {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -460,8 +467,8 @@ footer {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -508,8 +515,8 @@ footer {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -577,8 +584,8 @@ footer {
   margin: 10px;
 }
 
-.tam12px {
-  font-size: 1.2rem;
+.tam16px {
+  font-size: 1.6rem;
 }
 
 .text-center {
@@ -601,6 +608,10 @@ footer {
     grid-template-columns: 1fr;
     margin: 30px 10%;
     justify-items: center;
+  }
+  #index-secciones article {
+    text-align: center;
+    max-width: 80%; /* Redefine el ancho máximo de los artículos */
   }
   .principalsection {
     grid-template-columns: 1fr;
